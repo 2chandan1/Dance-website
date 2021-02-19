@@ -1,0 +1,11 @@
+1 : touch.gitignore
+2 : git config --global user.name chanda
+3 : git config --global user.email tiwarichandan936@gmail.com
+4 : git init
+5 : git add .
+6 : git commit -m "initial commit"
+7 : git status # just to see
+8 : ssh-keygen -t rsa -b 4096 -C "tiwarichandan936@gmail.com"^C
+9 : cat<path to id_rsa.pub> # add this key to github account
+10: git remote add origin <ssh url.git>
+11: git push origin master
